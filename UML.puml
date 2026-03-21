@@ -1,0 +1,17 @@
+@startuml
+package "check-security" {
+    class "Security Server" {
+        + scan_for_secrets(path)
+        + check_gitignore(path)
+    }
+    
+    class "Scanner Logic" {
+        - SECRET_PATTERNS
+        - SCAN_EXCLUSIONS
+        + scanFile(filePath)
+        + scanDirectory(dirPath)
+    }
+    
+    "Security Server" --> "Scanner Logic" : "Uses"
+}
+@enduml

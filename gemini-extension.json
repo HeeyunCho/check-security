@@ -1,0 +1,16 @@
+{
+  "name": "check-security",
+  "version": "1.0.0",
+  "description": "Security scanner for secrets and .gitignore validation.",
+  "main": "dist/index.js",
+  "tools": [
+    {
+      "name": "scan_for_secrets",
+      "description": "Scans a directory or file for potential secrets like API keys, tokens, and credentials."
+    },
+    {
+      "name": "check_gitignore",
+      "description": "Checks if common sensitive files are ignored in .gitignore."
+    }
+  ]
+}

@@ -1,14 +1,29 @@
-# Check Security
+# 🚀 Check Security v8.5 // Celestial
 
-Security auditing tools for secret scanning and source control hygiene.
+The **Core Component** for the Gemini CLI ecosystem. Evolved into a **Hardened Agentic System** that enforces deterministic engineering through Harness guardrails.
 
-## ?? Purpose
-Built to enhance the Gemini CLI ecosystem with specialized capabilities, ensuring professional standards and operational efficiency.
+## 🏗️ Celestial Architecture
+```mermaid
+graph TD
+    subgraph Core [Component Engine]
+        Init[Initialize] --> State[Internal State]
+        State --> Loop[Processing Loop]
+    end
 
-## ?? Installation
-npm install
-npm run build
+    subgraph Security [Security Gate v8.5.1]
+        SH[Security Hook] --> |Validated| Loop
+    end
 
-## ?? Usage
-Register in settings.json to enable this agent's tools.
+    Loop --> |Action| Out[Output]
+```
 
+## 🌟 Key Features (v8.5)
+- **Harness Integration**: Full compatibility with Mitchell Hashimoto loops for deterministic state transitions.
+- **Celestial Standards**: Upgraded for the v8.5 ecosystem with real-time tracking.
+- **Native Security**: Integrated with the mandatory pre-commit validation hook (v8.5.1).
+
+## 🛡️ Security Policy
+This repository follows the global ecosystem [Security Policy](../SECURITY.md).
+
+---
+**Standardized by Gemini CLI** | *v8.5.1 Deployment Active*
